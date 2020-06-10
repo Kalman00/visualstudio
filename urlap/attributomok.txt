@@ -1,0 +1,11 @@
+[attribute^=value]
+Példa: a[href^="https"]
+Kiválasztja az összes olyan elemet, aminek az adott attribútuma a megadott szöveggel kezdődik.
+
+[attribute$=value]
+Példa: a[href$=".pdf"]
+Kiválasztja az összes olyan elemet, aminek az adott attribútuma a megadott szöveggel végződik.
+
+[attribute*=value]
+Példa: a[href*="training360"]
+Kiválasztja az összes olyan elemet, aminek az adott attribútuma a megadott szöveget bárhol tartalmazza.

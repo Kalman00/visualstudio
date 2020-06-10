@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div>
+                    <label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email cím: *</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="adress">Cím: *</label>
+                    <input id="adress" name="adress" type="text" required>
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés</label>
+                    <textarea id="comment" name="comment" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Termék adatai</legend>
+                <div>
+                    <span>Extra feltét</span>
+                </div>
+                <div>
+                    <input checked id="nothing" name="nothing" type="checkbox" value="0">
+                    <label for="nothing">Nem kérek</label>
+                </div>
+                <div>
+                    <input id="cheese" name="cheese" type="checkbox" value="300">
+                    <label for="cheese">Sajt</label>
+                </div>
+                <div>
+                    <input id="double-meat" name="double-meat" type="checkbox" value="600">
+                    <label for="double-meat">Dupla hús</label>
+                </div>
+                <div>
+                    <label for="sauce">Szósz</label>
+                    <select name="sauce" id="sauce">
+                        <option value="0" selected>Alap</option>
+                        <option value="100">Sajtos</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div>
+                <label for="quantity">Mennyiség: </label>
+                <input id="quantity" name="quantity" type="number" min="1" max="10">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

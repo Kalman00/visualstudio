@@ -1,0 +1,10 @@
+:hover - ha az elem fölé viszik az egeret,
+:visited - azok a linkek, amelyekre már kattintottak,
+:active - ha a felhasználó használ egy elemet, mondjuk rákattint,
+:focus - elsősorban input mezőknél, ha éppen használjuk,
+:first-child - a szülő elem első gyereke,
+:last-child - a szülő elem utolsó gyereke,
+:nth-child(n) - az n-edik gyereke a szülő elemnek,
+:empty - olyan elem, aminek nincs gyereke, azaz nem tartalmaz beágyazott elemet,
+:checked - a kiválasztott checkbox,
+:disabled - letiltott elem.

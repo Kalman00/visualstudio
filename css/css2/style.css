@@ -1,0 +1,93 @@
+h1 {
+    color: red;
+    font-family: fantasy, Arial;
+    text-align: center; 
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+
+}
+
+h3 {
+    font-family: fantasy, Arial;
+    text-align: left;
+    font-size: x-large;
+
+}
+#bio-header {
+    color: brown;
+
+}
+#skills-header {
+    color:coral;
+
+}
+
+p {
+    color:indigo;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+
+}
+
+.content {
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, Arial;   
+    font-size: 20px;
+    text-align: justify;
+    /*justify sorkizárt*/
+    text-transform: none;
+    /*uppercase a szöveget nagybetűvé alakítja*/
+    line-height: 30px;
+    /*sorköz*/
+    font-weight: 500;
+    /*font-weight szövegbetű vastagság*/
+    /*Alt+Space lehetőségek megnyitása*/
+    /* box-shadow: 0 0 8px black;*/
+    /*Kiemelés (pl: box-shadow: 3px 3px 8px black)
+            Jobb fentről világítás, képeknél is
+    */
+
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.img-div {
+    background-color: lightblue;
+    /*box-shadow: 0px 0px 7px black;*/
+/*    position: relative; */
+}
+
+.light {
+    background-color: rgb(116, 91, 163);
+}
+
+img {
+    width: 14.4%;
+    /*height: 150px;*/
+    margin: 1%;
+    cursor: pointer;
+/*
+Margin = Margó, nem kötelező
+*/
+    box-shadow: 0px 0px 7px black;
+    
+}
+
+#img-1 {
+/*    display: none; */
+/*    position: absolute;*/ /*position: fixed (A laptetején görög veled)*/
+/*    top: 10px; */
+/*    left: 10px; */
+    /*top felülről lefele pl: top: 10px
+    left: 10px
+    right: 10px stb.
+    */
+    position: static; /* Ezt csak úgy megadtam, hogy ne írjon hiányt a css*/
+
+}
+
